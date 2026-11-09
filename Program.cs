@@ -34,13 +34,13 @@
 
 //void Reverse(int number)
 //{
-    //int a = number / 100;
-    //int b = number / 10 % 10;
-    //int c = number % 10;
+//int a = number / 100;
+//int b = number / 10 % 10;
+//int c = number % 10;
 
-    //int rev  = (c * 100) + (b * 10) + (a * 1);
+//int rev  = (c * 100) + (b * 10) + (a * 1);
 
-  //  System.Console.WriteLine(rev + " ");
+//  System.Console.WriteLine(rev + " ");
 //}
 
 //classtask4 
@@ -50,7 +50,7 @@
 
 //void PrintStars(int number)
 //{
-  //  System.Console.WriteLine(new string('*', number));
+//  System.Console.WriteLine(new string('*', number));
 //}
 
 //classtask5
@@ -60,10 +60,10 @@
 
 //void PrintSquare(int size)
 //{
-    //for(int i = 0; i < size; i++)
-    //{
-    //    PrintStars(size);
-  //  }
+//for(int i = 0; i < size; i++)
+//{
+//    PrintStars(size);
+//  }
 //}
 //void PrintStars(int n)
 //{
@@ -78,30 +78,38 @@
 
 //void PrintSquare(int width, int height)
 //{
-    //for(int i = 0; i < height; i++)
-    //{
-   //     PrintStars(width);
- //   }
+//for(int i = 0; i < height; i++)
+//{
+//     PrintStars(width);
+//   }
 //}
 //void PrintStars(int n)
 //{
-  //  System.Console.WriteLine(new string('*', n));
+//  System.Console.WriteLine(new string('*', n));
 //}
 
 //classtask7
+//int n = Convert.ToInt32(Console.ReadLine());
+
+//PrintSquare(n);
+
+//void PrintSquare(int size)
+//{
+//for(int i = 1; i <= size; i++)
+//{
+//    PrintStars(i);
+//  }
+//}
+//void PrintStars(int n)
+//{
+//  System.Console.WriteLine(new string('*', n));
+//}
+
+//classtask8
 int n = Convert.ToInt32(Console.ReadLine());
+PrintSpaces(n);
 
-PrintSquare(n);
-
-void PrintSquare(int size)
+void PrintSpaces(int number)
 {
-    for(int i = 1; i <= size; i++)
-    {
-        PrintStars(i);
-    }
+    Console.Write(new string(' ', number));
 }
-void PrintStars(int n)
-{
-    System.Console.WriteLine(new string('*', n));
-}
-
