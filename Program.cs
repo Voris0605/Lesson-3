@@ -71,19 +71,37 @@
 //}
 
 //classtask6
-int a = Convert.ToInt32(Console.ReadLine());
-int b = Convert.ToInt32(Console.ReadLine());
+//int a = Convert.ToInt32(Console.ReadLine());
+//int b = Convert.ToInt32(Console.ReadLine());
 
-PrintSquare(a, b);
+//PrintSquare(a, b);
 
-void PrintSquare(int width, int height)
+//void PrintSquare(int width, int height)
+//{
+    //for(int i = 0; i < height; i++)
+    //{
+   //     PrintStars(width);
+ //   }
+//}
+//void PrintStars(int n)
+//{
+  //  System.Console.WriteLine(new string('*', n));
+//}
+
+//classtask7
+int n = Convert.ToInt32(Console.ReadLine());
+
+PrintSquare(n);
+
+void PrintSquare(int size)
 {
-    for(int i = 0; i < height; i++)
+    for(int i = 1; i <= size; i++)
     {
-        PrintStars(width);
+        PrintStars(i);
     }
 }
 void PrintStars(int n)
 {
     System.Console.WriteLine(new string('*', n));
 }
+
