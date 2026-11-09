@@ -26,19 +26,29 @@
 //}
 
 //classtask3
-using System.Runtime.InteropServices;
+//using System.Runtime.InteropServices;
 
+//int n = Convert.ToInt32(Console.ReadLine());
+
+//Reverse(n);
+
+//void Reverse(int number)
+//{
+    //int a = number / 100;
+    //int b = number / 10 % 10;
+    //int c = number % 10;
+
+    //int rev  = (c * 100) + (b * 10) + (a * 1);
+
+  //  System.Console.WriteLine(rev + " ");
+//}
+
+//classtask4 
 int n = Convert.ToInt32(Console.ReadLine());
 
-Reverse(n);
+PrintStars(n);
 
-void Reverse(int number)
+void PrintStars(int number)
 {
-    int a = number / 100;
-    int b = number / 10 % 10;
-    int c = number % 10;
-
-    int rev  = (c * 100) + (b * 10) + (a * 1);
-
-    System.Console.WriteLine(rev + " ");
+    System.Console.WriteLine(new string('*', number));
 }
