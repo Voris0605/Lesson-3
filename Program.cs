@@ -44,11 +44,28 @@
 //}
 
 //classtask4 
+//int n = Convert.ToInt32(Console.ReadLine());
+
+//PrintStars(n);
+
+//void PrintStars(int number)
+//{
+  //  System.Console.WriteLine(new string('*', number));
+//}
+
+//classtask5
 int n = Convert.ToInt32(Console.ReadLine());
 
-PrintStars(n);
+PrintSquare(n);
 
-void PrintStars(int number)
+void PrintSquare(int size)
 {
-    System.Console.WriteLine(new string('*', number));
+    for(int i = 0; i < size; i++)
+    {
+        PrintStars(size);
+    }
+}
+void PrintStars(int n)
+{
+    System.Console.WriteLine(new string('*', n));
 }
