@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("c# softclub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36f8e9c9ebfa12b5cb08ed794af875243be819fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd1376ee86adc65d6ba0b865c860f836fece8606")]
 [assembly: System.Reflection.AssemblyProductAttribute("c# softclub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("c# softclub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
