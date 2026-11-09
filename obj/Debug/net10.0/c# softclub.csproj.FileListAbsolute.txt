@@ -12,3 +12,4 @@ C:\Users\user\Desktop\c# softclub\obj\Debug\net10.0\refint\c# softclub.dll
 C:\Users\user\Desktop\c# softclub\obj\Debug\net10.0\c# softclub.pdb
 C:\Users\user\Desktop\c# softclub\obj\Debug\net10.0\c# softclub.genruntimeconfig.cache
 C:\Users\user\Desktop\c# softclub\obj\Debug\net10.0\ref\c# softclub.dll
+C:\Users\user\Desktop\c# softclub\obj\Debug\net10.0\c# softclub.sourcelink.json

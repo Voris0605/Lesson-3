@@ -1,23 +1,26 @@
-﻿//classtask #1
-//int[] numbers = {1, 2, 3 , 4, 2, 1, 3, 0};
-//int max = numbers.Max();
-
-//System.Console.WriteLine(max);
-
-//classtask #2
-//using System.Diagnostics.CodeAnalysis;
-
-//double cnt = 1;
-
-//short a = Convert.ToInt16(Console.ReadLine());
-//short n = Convert.ToInt16(Console.ReadLine());
-
-//for(int i = 1; i <= n; i++)
+﻿//classtask1
+//int n = Convert.ToInt32(Console.ReadLine());
+//
+//PrintFromNumberToOne(n);
+//
+//void PrintFromNumberToOne(int number)
 //{
-//    cnt += Math.Pow(a, i);
+    //for(int i = number; i > 0; i--)
+    //{
+   //     System.Console.Write(i + " ");
+ //   }
 //}
-//System.Console.WriteLine("Answer " + cnt);
 
-//classtask3
+//classtask2
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+int c = Convert.ToInt32(Console.ReadLine());
+int d = Convert.ToInt32(Console.ReadLine());
 
+Sum(a, b, c, d);
 
+void Sum(int a, int b, int c, int d)
+{
+    int sum = a + b + c + d;
+    System.Console.WriteLine(sum + " ");
+}
