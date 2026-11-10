@@ -146,15 +146,14 @@
 //}
 
 //hometask 3
-//using System.Diagnostics.CodeAnalysis;
+using System.Diagnostics.CodeAnalysis;
 
-//int a = Convert.ToInt32(Console.ReadLine());
-//int sum = 0;
-//for(int i = 1 ; i < a+1; i++)
-//{
-//  sum+=i;
-//}
-//System.Console.WriteLine(sum);
+int a = Convert.ToInt32(Console.ReadLine());
+int sum = 0;
+for(int i = 1 ; i < a+1; i++)
+{
+  sum+=i;
+}
+System.Console.WriteLine(sum);
 
 //hometask 4
-i
